@@ -5,9 +5,9 @@ import os
 
 def send_email_alert(image_path):
     # ===== EMAIL SETTINGS =====
-    SENDER_EMAIL = "navinelavarasanofficial@gmail.com"
-    RECEIVER_EMAIL = "navinelavarasan28@gmail.com"
-    APP_PASSWORD = "uqzj paxz vsxl olvt"  # Gmail App Password
+    SENDER_EMAIL = "example@gmail.com"
+    RECEIVER_EMAIL = "example@gmail.com"
+    APP_PASSWORD = "xxxxxxxxxxxxxxxxxxx"  # Gmail App Password
 
     msg = EmailMessage()
     msg["Subject"] = "🚨 EMERGENCY ALERT DETECTED"
